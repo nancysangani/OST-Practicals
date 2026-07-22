@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Dark Mode styles applied by JavaScript */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
